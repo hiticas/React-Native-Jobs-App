@@ -1,0 +1,12 @@
+npx create-expo-app@latest -e with-router my-app
+npm install expo-font axios react-native-dotenv
+npm start
+
+npm install -g expo-cli
+expo-cli start --tunel
+
+expo init .
+->blank
+->Y
+
+npm start
